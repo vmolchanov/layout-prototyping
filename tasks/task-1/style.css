@@ -1,0 +1,33 @@
+.caterpillar__mouth {
+    stroke: #400903;
+    stroke-dasharray: 12.5;
+    stroke-width: 3;
+    fill: none;
+}
+
+.caterpillar__head-oval {
+    fill: url(#caterpillar-color);
+}
+
+.caterpillar__eye {
+    stroke: #400903;
+    stroke-width: 3;
+    fill: none;
+}
+
+.caterpillar__ear {
+    stroke: none;
+    fill: #400903;
+}
+
+.caterpillar__ear-left {
+    transform: rotate(-30deg);
+}
+
+.caterpillar__ear-right {
+    transform: rotate(30deg);
+}
+
+.caterpillar__leg {
+    fill: #691201;
+}
