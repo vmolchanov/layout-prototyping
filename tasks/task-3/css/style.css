@@ -1,0 +1,15 @@
+.purple-bg {
+    background-color: #d0bdd9;
+}
+
+.orange-bg {
+    background-color: #ffd3b1;
+}
+
+.phrase__number {
+    text-decoration: underline;
+}
+
+.phrase__latin {
+    font-style: italic;
+}
