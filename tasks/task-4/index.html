@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Перетаскивание объектов</title>
+</head>
+<body>
+    <h1 class="main-title">Собрать домик в любом месте</h1>
+    <main class="main">
+        <div class="drag">
+            <!-- Стены -->
+            <svg
+                viewBox="0 0 100 100"
+                width="100"
+                height="100"
+                class="drag__object"
+                style="transform: translate(0px,0px);"
+                data-rotate="45"
+                data-translate-x="0"
+                data-translate-y="0"
+            >
+                <g style="transform: rotate(45deg);">
+                    <rect width="100" height="100" fill="red" />
+                </g>
+            </svg>
+            <!-- Крыша -->
+            <svg
+                viewBox="0 0 150 75"
+                width="150"
+                height="75"
+                class="drag__object"
+                style="transform: translate(0px,0px);"
+                data-rotate="-135"
+                data-translate-x="0"
+                data-translate-y="0"
+            >
+                <g style="transform: rotate(-135deg);">
+                    <polygon points="0,75 75,0 150 75" fill="brown" stroke="tomato" stroke-width="3" />
+                </g>
+            </svg>
+            <!-- Окно -->
+            <svg
+                viewBox="0 0 100 100"
+                width="20"
+                height="20"
+                class="drag__object"
+                style="transform:   translate(0px,0px);"
+                data-rotate="0"
+                data-translate-x="0"
+                data-translate-y="0"
+            >
+                <g style="transform: rotate(0deg);">
+                    <rect width="100" height="100" fill="DodgerBlue" />
+                    <rect x="15" y="15" width="70" height="20" fill="cyan" />
+                    <rect x="15" y="50" width="28" height="35" fill="cyan" />
+                    <rect x="57" y="50" width="28" height="35" fill="cyan" />
+                </g>
+            </svg>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>

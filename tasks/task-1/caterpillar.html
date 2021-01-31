@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гусеница</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="main-title">Задание 1. Рисунок CSS</h1>
+    <svg viewBox="0 0 200 200" class="caterpillar" width="200" height="200">
+        <radialGradient id="caterpillar-color" cx="60%" y="40%">
+            <stop offset="0%" stop-color="#baf3d9" />
+            <stop offset="100%" stop-color="#00df6b" />
+        </radialGradient>
+
+        <g class="caterpillar__head">
+            <rect class="caterpillar__ear caterpillar__ear-left" x="20" y="60" width="5" height="20" />
+            <rect class="caterpillar__ear caterpillar__ear-right" x="90" y="-10" width="5" height="20" />
+            <circle class="caterpillar__head-oval" cx="70" cy="75" r="25" />
+            <circle class="caterpillar__mouth" cx="68" cy="83" r="4" />
+            <circle class="caterpillar__eye" cx="60" cy="73" r="4" />
+            <circle class="caterpillar__eye" cx="75" cy="73" r="4" />
+        </g>
+
+        <g class="caterpillar__body-top">
+            <circle class="caterpillar__head-oval" cx="100" cy="100" r="25" />
+            <polygon class="caterpillar__leg" points="85,120 95,124 88,130" />
+            <polygon class="caterpillar__leg" points="105,124 115,120 112,130" />
+        </g>
+
+        <g class="caterpillar__body-middle">
+            <circle class="caterpillar__head-oval" cx="130" cy="95" r="25" />
+            <polygon class="caterpillar__leg" points="118,117 128,120 121,127" />
+            <polygon class="caterpillar__leg" points="131,120 141,117 140,127" />
+        </g>
+
+        <g class="caterpillar__body-bottom">
+            <circle class="caterpillar__head-oval" cx="160" cy="100" r="25" />
+            <polygon class="caterpillar__leg" points="145,120 155,124 148,130" />
+            <polygon class="caterpillar__leg" points="165,124 175,120 172,130" />
+        </g>
+    </svg>
+</body>
+</html>

@@ -1,0 +1,75 @@
+.flex {
+    display: flex;
+    width: 250px;
+    height: 250px;
+}
+
+.flex:hover .static {
+    display: none;
+}
+
+.flex:hover .hover {
+    display: block;
+}
+
+.flex:active {
+    height: 100vh;
+}
+
+.flex:active .press {
+    display: block;
+}
+
+.flex:active .hover {
+    align-self: flex-end;
+}
+
+.flex:active .hover .coin {
+    top: -90px;
+}
+
+.flex:active .hover .chest {
+    display: none;
+}
+
+.flex:active .hover .text {
+    display: none;
+}
+
+.hover {
+    position: relative;
+    display: none;
+}
+
+.hover .text {
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    color: brown;
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: -3px 3px 3px gray;
+}
+
+.hover .coin {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+.press {
+    position: relative;
+}
+
+.press .text {
+    position: absolute;
+    top: -20px;
+    left: 50px;
+    font-size: 26px;
+    font-weight: bold;
+    color: brown;
+}
+
+.press {
+    display: none;
+}
