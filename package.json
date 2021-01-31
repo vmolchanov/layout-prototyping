@@ -3,8 +3,7 @@
     "version": "1.0.0",
     "description": "Все выполненные задания для курса \"Верстка и прототипирование сайтов\"",
     "scripts": {
-        "predeploy": "npm run build",
-        "deploy": "rm -rf node_modules/gh-pages/.cache && gh-pages -d build"
+        "deploy": "rm -rf node_modules/gh-pages/.cache && gh-pages -d ."
     },
     "repository": {
         "type": "git",
