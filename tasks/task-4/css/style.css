@@ -1,0 +1,27 @@
+.main-title {
+    font-style: italic;
+    text-align: center;
+}
+
+.main {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.drag {
+    width: 1200px;
+    height: 640px;
+}
+
+.drag__object {
+    overflow: initial;
+}
+
+.drag__object:hover {
+    cursor: grab;
+}
+
+.drag__object g {
+    transform-origin: center center;
+}

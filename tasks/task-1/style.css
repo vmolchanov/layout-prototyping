@@ -31,3 +31,8 @@
 .caterpillar__leg {
     fill: #691201;
 }
+
+.main-title {
+    font-style: italic;
+    text-align: center;
+}
